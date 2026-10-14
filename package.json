@@ -1,0 +1,19 @@
+{
+  "name": "express-middleware-5-programs",
+  "version": "1.0.0",
+  "description": "5 Independent Express Middleware Programs",
+  "main": "01-builtin-middleware.js",
+  "scripts": {
+    "prog1": "node 01-builtin-middleware.js",
+    "prog2": "node 02-custom-logging.js",
+    "prog3": "node 03-custom-auth.js",
+    "prog4": "node 04-third-party-middleware.js",
+    "prog5": "node 05-error-handling.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  }
+}
